@@ -4,6 +4,7 @@ body {
 
 h1 {
 	color: rgb(2, 132, 130);
+	font-family: Courier, monospace;
 }
 
 h2 {
@@ -13,11 +14,17 @@ h2 {
 
 nav {
 	background-color: #808080;
+	height: 40px;
+}
+
+#navbar-top {
+	height: 100px;
+	width: 100%;
 }
 
 nav a {
 	display: block;
-	float: left;
+	text-align: center;
 	background-color: #ffbf00;
 	color: white;
 	padding: 35px;
@@ -48,7 +55,7 @@ a:hover {
 
 
 .board {
-	height: 50%;
+	height: 750%;
 	width: 50%;
 	display: inline-block;
 }
@@ -62,6 +69,11 @@ a:hover {
 	float: left;
 	margin: 8%;
 
+}
+
+img {
+	height: 200px;
+	width: 150px;
 }
 
 footer {
